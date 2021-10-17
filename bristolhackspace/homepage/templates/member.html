@@ -1,0 +1,17 @@
+{% extends "nav_base.html" %}
+
+{% block title %}Member Area{% endblock %}
+
+{% block content %}
+<h2>Member Area</h2>
+Below are links to various sites within Bristol Hackspace. Many of these will require a <a href="{{ url_for('registration') }}">membership</a> to access.
+<dl>
+    <dt><a href="https://dc.brisflix.com">Forum</a></dt>
+    <dd>A place for members to share projects, propose changes, report incidents and other hackspace conversations.</dd>
+    <dt><a href="https://bristol.hackspace.org.uk/wiki">Wiki</a></dt>
+    <dd>This contains a wealth of information regarding our tools, rules and many other things within the hackspace.</dd>
+  </dl> 
+
+
+{% endblock %}
+

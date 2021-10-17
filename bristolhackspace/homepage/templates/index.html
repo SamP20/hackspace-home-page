@@ -1,0 +1,13 @@
+{% extends "nav_base.html" %}
+
+{% block title %}Hackspace home{% endblock %}
+
+
+{% block content %}
+<h2>Welcome</h2>
+<p>Bristol Hackspace is a place to make things; a community of like-minded individuals centered around our space in St Philips.</p>
+
+<p>We welcome people with an interest in all kinds of making and creating. Whether you are interested in electronics, woodwork, jewelry making, knitting, robotics, metalwork, bike maintenance, or any other kind of creative skill.</p>
+
+<p>Our space has plenty of tools and equipment, from saws and drills to a laser cutter and 3D printer, and all sorts of components, salvaged stuff and donated bits and bobs. If you have an idea for a project, want to learn new skills and have a lot of fun doing it, or just fancy a chat – <a href="{{ url_for('registration') }}">join us!</a></p>
+{% endblock %}
